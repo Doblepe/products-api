@@ -31,7 +31,7 @@ class Manufacturer
      */
     private string $countryCode = '';
     /** The date thath manufacterer was listed
-     * @ORM\Column(type="datetime")
+     * @ORM\Column(type="datetimePrt")
      */
     private ?\DateTimeInterface $listDate = null;
 
